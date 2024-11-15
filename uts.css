@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.project img{ 
+    border: 5px solid #eee; 
+    box-shadow: 1px 2px 3px #000000;
+    border-radius: 10px;
+    box-sizing: border-box;
+    width: 1000px;
+    height: 600px;
+    object-fit: cover;
+}
+
+
+header {
+    background: #df0a0a;
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+}
+
+header nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+footer {
+    background: #f70707;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.banner {
+    background: url('NA.jpg') no-repeat center center;
+    background-size: cover;
+    height: 400px;
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.project {
+    margin: 20px 0;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.project1 img{
+    border: 2px solid #eee; 
+    box-shadow: 1px 2px 3px #000000;
+    border-radius: 10px;
+    box-sizing: border-box;
+    width: 500px;
+    height: 400px;
+    object-fit: cover;
+}
+
+a:hover {
+    background: blueviolet;
+    border-radius: 1000px;
+}
